@@ -1,11 +1,10 @@
 import "./Workcard.css"
-import React from 'react'
 import Workcard from "./Workcard.jsx"
 
 const Work = () => {
   return (
-    <div class="work-container">
-        <h1 className="project-heading">Project</h1>
+    <div className="work-container">
+        <h1 className="project-heading">Projects</h1>
         <div className="project-container">
             <Workcard 
                 imgsrc="https://cdn.psdrepo.com/images/2x/ecommerce-landing-page-psd-t7.jpg"
