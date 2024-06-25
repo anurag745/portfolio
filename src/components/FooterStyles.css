@@ -1,0 +1,65 @@
+.footer-icons{
+    background-color: rgb(0, 0, 0);
+    color:#fffafa;
+    display: flex;
+    justify-content: center;
+    color:rgb(149, 149, 149);
+    grid-gap: 30px;
+}
+.footer-middle{
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+    grid-area: icons;
+    
+}
+.icons img{
+    width:25px;
+    cursor:pointer;
+}
+.reply-container {
+    grid-area: reply-container;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: fit-content;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.input-box {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    border-radius:4px 0 0 4px;
+}
+
+.submit-button {
+    background-color: rgba(49, 17, 107, 0.826);
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.footer-list{
+    
+    color:grey;
+}
+.copy{
+    grid-area: copy;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+.copy p,
+.footer-list a{
+    color:grey;
+}

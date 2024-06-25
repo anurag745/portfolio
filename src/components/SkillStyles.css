@@ -1,0 +1,33 @@
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    border: 1px solid rgba(38, 21, 38, 0.7);
+    box-shadow: 0 4px 8px rgba(70, 3, 63, 0.707);
+    padding:20px 30px;
+    border-radius:0.5pc;
+
+}
+.skill-container:HOVER{
+    transform: scale(1.03);
+    cursor:pointer;
+}
+.skill-container img{
+    width:50px;
+    justify-self: cnter;
+}
+.skill-container p{
+    justify-self: center;
+}
+.skillset{
+    display:flex;
+    gap:30px;
+    padding:50px;
+    flex-wrap: wrap;
+}
+.skillset-container{
+    margin:100px;
+    display: flex;
+    flex-direction: column;
+}
