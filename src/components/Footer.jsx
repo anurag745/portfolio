@@ -1,5 +1,4 @@
 import './FooterStyles.css' 
-import React from 'react'
 import {Link} from "react-router-dom"
 import InstaIcon from "../assets/footer-icons/instagram.png";
 import FbIcon from "../assets/footer-icons/facebook.png";
