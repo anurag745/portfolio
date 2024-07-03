@@ -4,6 +4,7 @@ import Heroimg from '../components/Heroimg'
 import Aboutcontent from '../components/Aboutcontent'
 import Skillset from '../components/Skillset'
 import Certificates from '../components/Certificates'
+import Experience from "../components/Experience"
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
     <Aboutcontent/>
     <Skillset/>
     <Certificates/>
+    <Experience/>
     <Footer/>
     </>
   )

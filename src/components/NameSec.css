@@ -41,7 +41,7 @@
     text-transform: uppercase;
 }
 .content .btn{
-    margin:1rem 0.2rem;
+    margin:1.6rem 0.2rem;
 }
 @media screen and (max-width:640px) {
     .hero .content h1{
@@ -50,4 +50,32 @@
     .hero .content p{
         font-size:1.3rem;
     }
+}
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+
+.resume-btn{
+  padding:12px 40px;
 }

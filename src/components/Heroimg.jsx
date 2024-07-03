@@ -1,5 +1,5 @@
 import "./Heroimg.css"
-import React,{Component} from 'react'
+import {Component} from 'react'
 
 class Heroimg extends Component{
     render(){

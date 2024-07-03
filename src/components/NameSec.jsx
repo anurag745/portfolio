@@ -1,5 +1,4 @@
 import "./NameSec.css"
-import React from 'react'
 import IntroImg from "../assets/intro-img.jpg"
 import {Link} from "react-router-dom"
 
@@ -11,11 +10,13 @@ const NameSec = () => {
         </div>
         <div className="content">
             <p>HI, I'M ANURAG</p>
-            <h1>A Full Stack Web Developer</h1>
+            <h1 className="typewriter">A Software Developer</h1>
         <div>
         <Link to="/projects" className="btn">PROJECTS</Link>
         <Link to="/contact" className="btn btn-light">CONTACT</Link>
+        
         </div>
+        <button className="btn resume-btn">Download my resume</button>
         </div>
     </div>
   )
