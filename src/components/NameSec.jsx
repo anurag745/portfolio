@@ -16,7 +16,7 @@ const NameSec = () => {
         <Link to="/contact" className="btn btn-light">CONTACT</Link>
         
         </div>
-        <button className="btn resume-btn">Download my resume</button>
+        <button className="btn resume-btn"><a href="https://drive.google.com/file/d/1NV_Fv0UldHGcAGXdeXN2ibe_3ukQutws/view?usp=drive_link">Download my resume</a></button>
         </div>
     </div>
   )
