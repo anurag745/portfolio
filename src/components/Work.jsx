@@ -1,5 +1,8 @@
 import "./Workcard.css"
 import Workcard from "./Workcard.jsx"
+import Wellnest from "../assets/wellnest.png"
+import Billing from "../assets/billing.png"
+import Order from "../assets/order.png"
 
 const Work = () => {
   return (
@@ -7,19 +10,22 @@ const Work = () => {
         <h1 className="project-heading">Projects</h1>
         <div className="project-container">
             <Workcard 
-                imgsrc="https://cdn.psdrepo.com/images/2x/ecommerce-landing-page-psd-t7.jpg"
-                title="E-commerce landing page"
-                text="This is a landing page for an e-commerce web application that I made using HTML, CSS and vanilla Javascript."
+                imgsrc={Billing}
+                title="Billing Software"
+                text="This is a billing software I made using python where I used Tkintr library for the UI."
+                source="https://github.com/anurag745/billing-software.git"
             />
             <Workcard
-                imgsrc="https://cdn.dribbble.com/users/2520129/screenshots/7315837/media/4fa795cda047331418fddc4198ebea39.png?resize=400x300&vertical=center"
-                title="Payment Splitting app"
-                text="This is a payment splitting app like Splitwise that I made using React components. The backend is written in express.js and I have used Mongodb to manage the database."
+                imgsrc={Order}
+                title="Food Order Prediction System"
+                text="This is a machine learning mdoel which provides suggestions based on the previous orders and current items in the basket."
+                source="https://github.com/anurag745/food-order-prediction-system.git"
             />
             <Workcard
-                imgsrc="https://cdn.dribbble.com/userupload/12352864/file/original-3d8c6766686d47cabacca947900e3751.jpg?resize=400x300&vertical=center"
-                title="Rhode EV landing page"
-                text="This is a landing page of a company that sells Electric vehicles and their parts. I amde the webpage using React.js and designed the UI by myself."
+                imgsrc={Wellnest}
+                title="WellNest"
+                text="This is a landing page for a mental health support website made using ejs components."
+                
             />
         </div>
     </div>
